@@ -1,24 +1,19 @@
-# README
+# Softensity Test Rails Project
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Ruby, Rails version
 
-Things you may want to cover:
+Ruby 2.7.0, Rails 6.0
 
-* Ruby version
+## Database Configuration
 
-* System dependencies
+Set the database configuration in /config/database.yml
 
-* Configuration
+## How to run the test suite
 
-* Database creation
+bundle install
+bundle exec rake db:create
+bundle exec rake db:migrate
+bundle exec rake db:seed
+bundle exec rails s
 
-* Database initialization
 
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
